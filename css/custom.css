@@ -1,0 +1,118 @@
+
+body{
+
+	font-family: 'Fira Sans Condensed', sans-serif;
+	margin: 0;
+	padding: 0;
+
+}
+
+section{
+	background: url(../image/img1.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	position: relative;
+}
+
+.form{
+	background: rgba(38, 157, 214, 0.72);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	height: auto;
+	box-shadow: 5px 5px 20px 0px rgba(20, 21, 21, 0.77);
+	box-sizing: border-box;
+	padding-bottom: 10px;
+}
+
+.form h3{
+	text-align: center;
+	display: block;
+}
+
+.form .login_box{
+	margin: 0 auto;
+	width: 88%;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+	display: block;
+}
+
+ul li input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+
+}
+
+ol{
+margin: 0;
+padding: 0;
+}
+
+ol li {
+	list-style: none;
+	display: block;
+}
+
+ol li div{
+	float: left;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: block;
+}
+
+ol li a{
+	text-decoration: none;
+	color: rgba(0, 5, 210, 0.93);
+	text-transform: uppercase;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+ol li a:hover{
+	text-decoration: underline;
+}
+
+.login-button{
+	color: #fff;
+	text-transform: uppercase;
+	width: 100%;
+	padding: 10px;
+	background: #0B5282;
+	margin-top: 10px;
+	border: 1px solid #0B5282;
+	box-sizing: border-box;
+}
+
+.login-button:hover{
+	color: #fff;
+	background: rgba(11, 82, 130, 0.9);
+}
+
+.signup{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 15px;
+}
+.signup span a{
+	color: #fff;
+	text-decoration: none;
+}
+.signup span a:hover{
+	color:blue;
+	text-decoration:underline;
+}
